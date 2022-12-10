@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python basico</title>
+    <link rel = "stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<header>
+  <tr>
+    <td><a class="nav" href=" http://127.0.0.1:8000/colecoes/">Coleções</a></td>
+    <td><a class="nav"  href="http://127.0.0.1:8000/lacos-de-repeticao ">laços de repetição</a></td>
+    <td><a class="nav" href="http://127.0.0.1:8000/condicionais/">Condicionais</a></td>
+    <td><a class="nav" href="http://127.0.0.1:8000/funcoes/ ">Funções</a></td>
+    <td><a class="nav" href=" http://127.0.0.1:8000/modularizacao/">Modularização</a></td>
+    <td><a class="nav" href="http://127.0.0.1:8000/classes/">Classes</a></td>
+  </tr> 
+    <h1 class="center"> Python basico</h1>
+</header>    
+    <h4  >Espero que ajude alguém de alguma forma, meu objetivo é passar a lógica por trás dos conceitos do python. De resto basta aprender coisas mais específicas<br>
+    e ferramentas quando necessário , e a pratica que trará o resultado , e essa parte depende de você tentar  , treinar e procurar melhorar </h4>
+      <h2 class="p-titulo1">Variaveis </h2>
+    <p > Para criar programas é preciso criar dados  ou recebe - los , de qualquer forma você precisa manipular esses dados , mas só posso manipular se existe - los . <br>
+    como na linha do meu codigo posso me referir ou usar um dado que nem existe , ou que será criado linhas após?</p>
+   <h4 class="codigo"  >print(a)<br>
+      a = ' é um exemplo '<br> </h4>
+    <p  >vai dar erro pois o a variavel usado no print o "a " não foi definido , só posteriormente , as linhas de codigo são lidas uma após a outra , precisa existir um<br>
+    dado x antes de manipula - lo na linha seguinte</p>
+    <textarea class="textarea"  rows="3" cols="70" >O algoritimo é as instruçoes dada do programa a cada linha de codigo do programador
+   á maquina , lida pela a maquina linha após linha . Os passos a passos</textarea>
+    <p > Precisamos entender como funciona uma  variavel funciona para manipular o dado que há nela. Para criar uma variavel  basta usar um simbolo  " = " </p>
+    <h4 class="codigo"> Nome_da_variavel =  "dado que estará dentro dela "</h4>
+    <p > Nome_da variavel  , como o nome já explica , será a maneira que você nomeiará esse dado , dessa maneira da proxima que se referir á esse dado será pelo o nome ,<br>
+    portanto só assim existirá esse dado . Esse nome , é o id do dado. Toda vez que se cria uma variavel ela cria uma espaço na memoria do computador<p>
+    <h4 class="codigo" > Nome_da_variavel =  "dado que estará dentro dela "</h4>
+    <p  > Você guarda ela em um lugar que que só pode ser acessado pelo seu id , o nome dado á ela. Agora que você a criou você pode manipular, um dos comandos basico do <br>
+    python e mais usado , <strong> Print( )</strong> é uma funçao do python, uma funçao é uma ferramenta ,  uma maneira de identifica - las é pelo parenteses usado no final ,<br>
+    onde estará o dado em que a ferramenta usará com o print ele exibe na tela o dado da variavel<p>
+    <h4 class="codigo" >Nome_da_variavel =  "dado que estará dentro dela "</h4>
+    <p >No python ao criar variaveis não se pode usar espaços entre palavras ou letras , dessa forma é usado o _  para servir como a representaçao de espaços , o python considera<br>
+    assim como as letras que são caracteres , que possuem seu proprio id , o seu espaço na memoria , o espaço também é considerado um caractere , e quanto as aspas " " são usadas para <br>
+    determinar que é uma string , string é uma mensagem , letras ...Então para o python entender que é uma mensagem use aspas e coloque a mensagem " entre as aspas" assim usado no paranteses <br>
+    do print(   ) , se não for usado aspas como no exemplo a seguir</p>
+    <h4 class="codigo">Z  = olá mundo</h4>
+    <p>O python irá considerá esse dado como uma variavel , porem você não criou essa variavel assim nao existindo e dando erro . O certo seria ...</p>
+    <h4 class="codigo">Variavel = " olá mundo "</h4>
+    <p  > É possivel armazenar numeros tambem alem de strings , o numero por nao ser mensagem , não é preciso usar aspas<p>
+    <h4 class="codigo"> X = 1 </h4>
+    <p>Mas se quiser criar uma mensagem com um numero , tudo bem</p>
+    <h4 class="codigo">Variavel = " página 1 "</h4>
+    <p>Alem de criar um dado e armazena - lo ,  para usa - lo exibindo na tela , É possivel receber dados de um possivel usuario do seu programa. Porem se de fato for de um usuario você nao saberá o que foi<br> 
+    digitado por ele , entao deve manipula - lo sabendo disso .  Comando , função , input( ) com essa ferramenta pode  - se receber dados</p>
+    <h4 class="codigo">Input(" Qual é seu nome ?  " )</h4>
+    <p>Assim o usuario poderá interagir com o seu programa diferente do print( ) que só mostra algo em sua tela , Porem  um dado recebido se nao for guardado em uma variavel não poderá ser manipulado e <br>
+    usado , entao ...use
+    <h4 class="codigo">Variavel1 = input("Qual é seu nome ?" )</h4>
+    <h4 class="codigo">Print(variavel1)</h4>
+    <p>Pode  - se usar numeros na variavel e se for usar espaços use o   _<br>
+     resultado será o nome digitado pelo usario mostrado pelo print</p>
+    <a href="http://127.0.0.1:8000/colecoes/"><button>Proxímo</button></a>  
+</body>
+</html>

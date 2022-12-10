@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python basico</title>
+    <link rel = "stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <tr>
+          <td><a class="nav" href=" http://127.0.0.1:8000/colecoes/">Coleções</a></td>
+          <td><a class="nav"  href="http://127.0.0.1:8000/lacos-de-repeticao ">laços de repetição</a></td>
+          <td><a class="nav" href="http://127.0.0.1:8000/condicionais/">Condicionais</a></td>
+          <td><a class="nav" href="http://127.0.0.1:8000/funcoes/ ">Funções</a></td>
+          <td><a class="nav" href=" http://127.0.0.1:8000/modularizacao/">Modularização</a></td>
+          <td><a class="nav" href="http://127.0.0.1:8000/classes/">Classes</a></td>
+        </tr> 
+          <h1 class="center"> Python basico</h1>
+      </header>    
+    <h2 class="p-titulo2">Coleções</h2>
+    <p>Com variaveis aprendemos que é possivel guardar dados , mas se eu quiser guardar mais de um dado em uma variavel ?<br>
+    É possivel , porem como me refiro aos dados armazenados ? , dado1 , dado2 .... É preciso usar coleçoes </p>
+    <h3> Listas</h3>
+    <h4 class="codigo">Lista = [ "dado0" , "dado1" , "dado2"   ]</h4>
+    <p>Nomeia a variavel de <strong>lista</strong> , para ficar mais facil entendimento , quando for criar uma lista é necessario usar os  colchetes [ ] ,dentro dos colchetes é possivel armazenar numeros ou strings</p>
+    <h4 class="codigo">Numeros = [ 1 , 2 , 3 ]</h4>
+    <p>Lista é uma variavel que possui mais de um dado , mais de 1 item , e para acessa - lo basta usar o seu numero de id , em coleçoes cada item possui seu id para que possa se referir a aquele dado .<br>
+    Usando exemplo</p>
+    <h4 class="codigo">Numeros = [ 1, 2 , 3 ]</h4>
+    <p>Os id começam pelo numero 0 e vai assim por diante dependendo do numero de itens na lista , para acessar um dado expecifico com o numero 3</p>
+    <h4 class="codigo">Print(Numeros[2])</h4>
+    <p>mostre o item do id correspondente a 2</p>
+    <h4>Resultado</h4>
+    <h4 class="codigo">3</h4>
+    <p>Nome dado a lista e o uso de colchetes com o numero de id do item,ja que o id começa do 0 o item de id 3 é o 2</p>
+    <p>Itens  - 1 2 3<br>
+       Id   -   0 1 2</p>
+    <p>Existem mais ferramentas , funções  , como adicionar , remover itens de listas e etc . Porém o foco é entender o conceito, ao precisar de uma ferramenta necessaria procure  - a. </p>
+    <p>Tuplas são assim como as  listas a diferença é que a tupla tem o paranteses presentes na estrutura</p>
+    <h4 class="codigo">Numeros = (1, 2 , 3 )</h4>
+    <p>Para referir ao id de um item assim como na lista e no dicionario que aparecerá posteriormente , Todos usam o colchetes para se referir ao [ id ] <p>
+    <h4 class="codigo">Print(Numeros[2])</h4>
+    <p>Entao por que usar tuplas ? As tuplas não podem ser alteradas , são imutaveis usando funções especificas como adicionar item e remover , não funcionam em tuplas dependendo da a<br>
+    situaçao tuplas podem ser usadas</p>
+    <h3>Dicionarios</h3>
+    <h4>Listas usa - se   -  [ ]</h4>
+    <h4>Tuplas usa - se  - ( )</h4>
+    <h4>Dicionarios usa - se - { } chaves, keys</h4>
+    <p>Como dito antes dicionarios tambem usam se colchetes para se referir ao id porem ao diferencial do dicionario  ao resto que é o que faz com que ele seja usado em  ocasioes especias , <br>
+    Dicionarios possuem o id personalizados , para cada item você pode nomea - los , assim como uma variavel em que você a nomeia , e se referindo por esse nome se obtem o dado</p>
+    <p>Nesse caso ao nomear o id é por esse nome em que será referido a aquele item ,para usar o dicionarios</p>
+    <h4 class="codigo">Dicionario = {" nome" :  " roberto"   }</h4>
+    <h4 class="codigo" >Print(dicionario["nome"] )</h4>
+    <h3>Resultado</h3>   
+    <h4 class="codigo">roberto</h4>
+    <a href="http://127.0.0.1:8000/"><button>Anterior</button></a> 
+    <a href="http://127.0.0.1:8000/lacos-de-repeticao "><button>Proxímo</button></a>  
+</body>
+</html>

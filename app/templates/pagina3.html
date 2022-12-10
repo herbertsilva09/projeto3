@@ -1,0 +1,42 @@
+{% load static %}
+<link rel = "stylesheet" href="{% static 'css/styles.css' %}">
+<title>Python basico</title>
+<header>
+    <tr>
+      <td><a class="nav" href=" http://127.0.0.1:8000/colecoes/">Coleções</a></td>
+      <td><a class="nav"  href="http://127.0.0.1:8000/lacos-de-repeticao ">laços de repetição</a></td>
+      <td><a class="nav" href="http://127.0.0.1:8000/condicionais/">Condicionais</a></td>
+      <td><a class="nav" href="http://127.0.0.1:8000/funcoes/ ">Funções</a></td>
+      <td><a class="nav" href=" http://127.0.0.1:8000/modularizacao/">Modularização</a></td>
+      <td><a class="nav" href="http://127.0.0.1:8000/classes/">Classes</a></td>
+    </tr> 
+      <h1 class="center"> Python basico</h1>
+  </header>    
+<h2 class="p-titulo3" >Laços de repetiçao</h2>
+<p>É possivel criar loops , repetiçoes de tarefas com python , para facilitar em algumas situaçoes</p>
+<h3>Laço for  , ao usar</h3>
+<h4 class="codigo">For c in range (1, 11):<br>
+<pre class="codigo" >    print(" oi")</pre></h4>
+<p>repita esse comando em um  "range"  de 10 vezes ao determinar o range da repetiçao , o numero de vezes , coloque o valor inicial de onde começa e outro  termina , porem o python anula<br>
+o ultimo, por isso usei o 11 para que de fato seja 10 vezes , c é uma variavel nao existente porem que é colocada por uma questao de estrutura , outra maneira de usar o for é dentro de uma <br> 
+repetição de uma variavel composta , listas<p>
+<h4 class="codigo">Lista = [ 0 , 1 ,2 , 3 ]</h4>
+<h4 class="codigo">For item in lista:<br>
+<pre class="codigo">    Print(item)</pre></h4>
+<P> o item tambem é usado de uma maneira " simbolica" , usei esse termo para mostrar que de fato será passado de item a item na lista em uma lista ate acabar ,repetindo o comando de mostrar o <br>
+item de uma lista até que ela acabe.</p>
+<p>Com o  é possivel while , é possivel criar uma repetiçao com condicionais , ou não ,o while cria um loop infinito que só para quando uma condiçao for atendida ,ou se você determinar que uma parte<br>
+do programa que pare , com o break</p>  
+<h4 class="codigo" >x = 0<br>
+while x  < 5 :
+<pre class="codigo" > x = int(input("digite um numero :   ")) </pre></h4>
+<p>Enquanto a variavel nao possuir o dado recebido sendo maior que 5 , o comando dentro da indentaçao nao ira parar de repetir.<br>
+== simbolo que determina  igualdade</p>
+<p>Posso criar um programa que repete alguns comandos e em um momento que definir pare a repetiçao</p>
+<h4 class="codigo">While :<br>
+<pre class="codigo">     int(input("digite um numero :   ")) 
+          Break</pre>
+Print(" programa saiu do loop agora segue normalmente com o algoritimo , a sequencia dos comandos ")</h4>
+<a href=" http://127.0.0.1:8000/colecoes/"><button>Anterior</button></a> 
+<a href="http://127.0.0.1:8000/condicionais/"><button>Proxímo</button></a>      
+    
